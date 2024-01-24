@@ -19,6 +19,7 @@ export default function App() {
       </button>
     );
   }
+
   function handleNumber(value) {
     let newValue = value;
     if (!calc.isInitital) newValue = calc.current + value;
