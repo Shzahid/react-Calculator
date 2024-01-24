@@ -18,13 +18,13 @@ sh 'CI=true npm test' // Run tests
             }
         }
 
-        stage('Deploy to EC2') {
-            steps {
-                script {
-                    // Add commands here to deploy your project to your EC2 instance.
-                    // You might use SCP, rsync, or another method depending on your setup.
-                }
-            }
-        }
+        // stage('Deploy to EC2') {
+        //     steps {
+        //         script {
+        //             // Add commands here to deploy your project to your EC2 instance.
+        //             // You might use SCP, rsync, or another method depending on your setup.
+        //         }
+        //     }
+        // }
     }
 }
